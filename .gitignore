@@ -1,0 +1,106 @@
+# ── Environment ──────────────────────────────────────────────────────────────
+.env
+.env.*
+.env.local
+*.env
+secrets.json
+credentials.json
+kaggle.json
+
+# ── Python ────────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+.mypy_cache/
+.ruff_cache/
+.pytest_cache/
+.cache/
+
+# ── Virtual environments ───────────────────────────────────────────────────────
+.venv/
+venv/
+env/
+ENV/
+.virtualenv/
+
+# ── Jupyter ───────────────────────────────────────────────────────────────────
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# ── Data files ────────────────────────────────────────────────────────────────
+data/
+*.csv
+*.tsv
+*.parquet
+*.feather
+*.h5
+*.hdf5
+*.pkl
+*.pickle
+*.npy
+*.npz
+*.zip
+*.tar.gz
+*.tar
+*.gz
+*.7z
+*.rar
+
+# ── Models & checkpoints ──────────────────────────────────────────────────────
+models/
+checkpoints/
+*.pt
+*.pth
+*.ckpt
+*.bin
+*.safetensors
+*.onnx
+*.joblib
+
+# ── Submissions ───────────────────────────────────────────────────────────────
+submissions/
+submission_*.csv
+
+# ── Logs & outputs ────────────────────────────────────────────────────────────
+logs/
+*.log
+*.out
+*.err
+output/
+outputs/
+results/
+mlruns/
+wandb/
+.neptune/
+
+# ── Optuna ────────────────────────────────────────────────────────────────────
+optuna_studies/
+*.db
+*.sqlite
+*.sqlite3
+
+# ── OS & editor ───────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.project
+.pydevproject
+
+# ── Temporary files ───────────────────────────────────────────────────────────
+tmp/
+temp/
+*.tmp
+*.bak
+*.orig
