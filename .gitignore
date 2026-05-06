@@ -65,7 +65,7 @@ checkpoints/
 *.joblib
 
 # ── Submissions ───────────────────────────────────────────────────────────────
-submissions/
+submissions/*.csv
 submission_*.csv
 
 # ── Logs & outputs ────────────────────────────────────────────────────────────
